@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>interior.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>interieur</object-name>
+    <object-name>planchet</object-name>
+    <object-name>inttour</object-name>
+    <object-name>inttourverriere</object-name>
+    <object-name>intporteG</object-name>
+    <object-name>intporteD</object-name>
+    
+    <!-- Objets transparents -->
+    <object-name>intverriere</object-name>
+    <object-name>intvitres</object-name>
+  </animation>
+
+  <!-- working for Rembrandt -->
+  <effect>
+    <inherits-from>Aircraft/Gloster-Gladiator/Models/Effects/Glass/glass</inherits-from>
+    <object-name>intverriere</object-name>
+    <object-name>intvitres</object-name>
+  </effect>
+  
+  <effect>
+    <inherits-from>Effects/model-transparent</inherits-from>
+    <object-name>intverriere</object-name>
+    <object-name>intvitres</object-name>
+  </effect>
+  
+  <!-- Tableau de bord -->
+  <model>
+    <path>Aircraft/Gloster-Gladiator/Models/Interior/Panel/panel.xml</path>
+    <offsets>
+      <x-m> -1.27559 </x-m>
+      <y-m>  0.00000 </y-m>
+      <z-m>  0.74025 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Pilote -->
+  <model>
+    <path>Aircraft/Gloster-Gladiator/Models/Pilot/pilot.xml</path>
+    <offsets>
+      <x-m> -0.83432 </x-m>
+      <y-m>  0.00000 </y-m>
+      <z-m>  0.61045 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Seat -->
+  <model>
+    <path>Aircraft/Gloster-Gladiator/Models/Interior/Seat/seat.xml</path>
+    <offsets>
+      <x-m> -0.47 </x-m>
+      <y-m>  0.00 </y-m>
+      <z-m>  0.45 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- Canopy -->
+  <animation>
+    <name>IntCanopy</name>
+    <object-name>inttourverriere</object-name>
+    <object-name>intverriere</object-name>
+  </animation>
+  
+  <animation>
+    <type>pick</type>
+    <object-name>IntCanopy</object-name>
+    <visible>true</visible>
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>doors.crew.toggle();</script>
+      </binding>
+    </action>
+  </animation>
+  
+  <animation>
+    <type>translate</type>
+    <object-name>IntCanopy</object-name>
+    <property>sim/model/door-positions/crew/position-norm</property>
+    <factor> 0.54 </factor>
+    <axis>
+      <x> 1 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+  
+  <animation>
+    <name>IntLesPortes</name>
+    <object-name>intporteG</object-name>
+    <object-name>intporteD</object-name>
+  </animation>
+  
+  <animation>
+    <type>pick</type>
+    <object-name>IntLesPortes</object-name>
+    <visible>true</visible>
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>doors.passenger.toggle();</script>
+      </binding>
+    </action>
+  </animation>
+  
+  <animation>
+    <type>rotate</type>
+    <object-name>intporteG</object-name>
+    <property>sim/model/door-positions/passenger/position-norm</property>
+    <factor> 175 </factor>
+    <axis>
+      <x1-m> -0.99420 </x1-m>
+      <y1-m> -0.53977 </y1-m>
+      <z1-m>  0.45402 </z1-m>
+      <x2-m> -0.55238 </x2-m>
+      <y2-m> -0.52839 </y2-m>
+      <z2-m>  0.45664 </z2-m>
+    </axis>
+  </animation>
+  
+  <animation>
+    <type>rotate</type>
+    <object-name>intporteD</object-name>
+    <property>sim/model/door-positions/passenger/position-norm</property>
+    <factor> 175 </factor>
+    <axis>
+      <x1-m> -0.55238 </x1-m>
+      <y1-m>  0.52839 </y1-m>
+      <z1-m>  0.45664 </z1-m>
+      <x2-m> -0.99420 </x2-m>
+      <y2-m>  0.53977 </y2-m>
+      <z2-m>  0.45402 </z2-m>
+    </axis>
+  </animation>
+  
+</PropertyList>

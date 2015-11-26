@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<PropertyList include="gladiator-base.xml">
+
+  <sim>
+
+    <description>Gloster Gladiator (YASim)</description>
+    <author>Emmanuel BARANGER (3D/FDM)</author>
+    <aircraft-version>0.1</aircraft-version>
+    <status>Alpha</status>
+    
+    <flight-model archive="y">yasim</flight-model>
+    <aero archive="y">gladiator-yasim</aero>
+
+    <rating>
+     <FDM type="int">     3 </FDM>
+     <systems type="int"> 2 </systems>
+     <cockpit type="int"> 3 </cockpit>
+     <model type="int">   4 </model>
+    </rating>
+
+  </sim>
+
+</PropertyList>

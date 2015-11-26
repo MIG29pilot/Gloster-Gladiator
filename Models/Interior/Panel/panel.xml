@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>panel.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>panel</object-name>
+    <object-name>panel2</object-name>
+    <object-name>barre</object-name>
+    
+    <!-- Objets transparents -->
+  </animation>
+
+  <!-- AI -->
+  <model>
+    <path>Aircraft/Gloster-Gladiator/Models/Interior/Panel/Instruments/ai/ai.xml</path>
+    <offsets>
+      <x-m> -0.003 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.060 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- ALT -->
+  <model>
+    <path>Aircraft/Gloster-Gladiator/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.140 </y-m>
+      <z-m> -0.080 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- AMPS -->
+  <model>
+    <path>Aircraft/Gloster-Gladiator/Models/Interior/Panel/Instruments/amps/ammeter.xml</path>
+    <offsets>
+      <x-m> -0.024 </x-m>
+      <y-m> -0.140 </y-m>
+      <z-m> -0.230 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- ASI -->
+  <model>
+    <path>Aircraft/Gloster-Gladiator/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m> -0.003 </x-m>
+      <y-m> -0.140 </y-m>
+      <z-m>  0.060 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- CLOCK -->
+  <model>
+    <path>Aircraft/Gloster-Gladiator/Models/Interior/Panel/Instruments/clock/clock.xml</path>
+    <offsets>
+      <x-m>  0.00 </x-m>
+      <y-m> -0.32 </y-m>
+      <z-m> -0.03 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- COMPASS -->
+  <model>
+    <path>Aircraft/Gloster-Gladiator/Models/Interior/Panel/Instruments/compass/compass.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> -0.080 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- FLAPS -->
+  <model>
+    <path>Aircraft/Gloster-Gladiator/Models/Interior/Panel/Instruments/flaps/flaps.xml</path>
+    <offsets>
+      <x-m> -0.002 </x-m>
+      <y-m> -0.340 </y-m>
+      <z-m> -0.170 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- FUEL -->
+  <model>
+    <path>Aircraft/Gloster-Gladiator/Models/Interior/Panel/Instruments/fuel/fuel.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.229 </y-m>
+      <z-m> -0.016 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- OAT -->
+  <model>
+    <path>Aircraft/Gloster-Gladiator/Models/Interior/Panel/Instruments/oat/air-temp.xml</path>
+    <offsets>
+      <x-m>  0.001 </x-m>
+      <y-m> -0.280 </y-m>
+      <z-m> -0.1080 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- OIL PRESSURE -->
+  <model>
+    <path>Aircraft/Gloster-Gladiator/Models/Interior/Panel/Instruments/oilp/oil-pressure.xml</path>
+    <offsets>
+      <x-m> -0.005 </x-m>
+      <y-m>  0.340 </y-m>
+      <z-m> -0.120 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- OIL TEMPERATURE -->
+  <model>
+    <path>Aircraft/Gloster-Gladiator/Models/Interior/Panel/Instruments/oilt/oil-temp.xml</path>
+    <offsets>
+      <x-m> -0.024 </x-m>
+      <y-m> -0.090 </y-m>
+      <z-m> -0.230 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- PEDALS -->
+  <model>
+    <path>Aircraft/Gloster-Gladiator/Models/Interior/Panel/Instruments/pedal/pedals.xml</path>
+    <offsets>
+      <x-m> -0.130 </x-m>
+      <y-m> -0.000 </y-m>
+      <z-m> -0.440 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- RPM -->
+  <model>
+    <path>Aircraft/Gloster-Gladiator/Models/Interior/Panel/Instruments/rpm/rpm.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.256 </y-m>
+      <z-m> -0.008 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- TURN -->
+  <model>
+    <path>Aircraft/Gloster-Gladiator/Models/Interior/Panel/Instruments/turn/turn.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.140 </y-m>
+      <z-m> -0.080 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- VSI -->
+  <model>
+    <path>Aircraft/Gloster-Gladiator/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m> -0.001 </x-m>
+      <y-m>  0.140 </y-m>
+      <z-m>  0.060 </z-m>
+    </offsets>
+  </model>
+  
+</PropertyList>
